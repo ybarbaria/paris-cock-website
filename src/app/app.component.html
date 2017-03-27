@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<!--<nav class="mdl-navigation">
+    <a [routerLink]="['/']" class="mdl-navigation__link" href="/">Home</a>
+</nav>-->
+<div class="header">
+<button md-button routerLink="" >Home</button>
+<button md-button routerLink="teams" >Team</button>
+</div>
+<router-outlet></router-outlet>

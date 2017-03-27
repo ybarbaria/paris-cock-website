@@ -1,1 +1,157 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+body {
+  font-family: 'Titillium Web', Arial sans-serif;
+  color: #333;
+  margin: 0px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  color: #444; }
+
+h1 {
+  font-size: 3em; }
+
+h4 {
+  font-size: 1.3em; }
+
+#fp-nav {
+  top: 50% !important; }
+
+.menu-wrapper {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  height: 40px;
+  margin: auto; }
+
+.menu {
+  padding: 0; }
+
+.menu li {
+  display: inline-block;
+  margin: 10px;
+  color: #000;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center; }
+
+.menu li.active {
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff; }
+
+.menu li a {
+  text-decoration: none;
+  color: #000; }
+
+.menu li.active a:hover {
+  color: #000; }
+
+.menu li:hover {
+  background: rgba(255, 255, 255, 0.8); }
+
+.menu li a,
+.menu li.active a {
+  padding: 9px 18px;
+  display: block; }
+
+.menu li.active a {
+  color: #fff; }
+
+.section {
+  height: 100%; 
+  text-align: center; }
+
+.section pre {
+  margin-top: 5px;
+  text-align: start; }
+
+.section pre code {
+  background: rgba(255, 255, 255, 0.1) !important;
+  font-weight: normal;
+  font-size: 1.2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 25px; }
+
+.code-block {
+  margin: auto;
+  display: inline-block; }
+
+.code-block code {
+  font-size: 1em !important; }
+
+button {
+  display: inline-block;
+  margin: 10px;
+  color: #000;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 7px 50px;
+  border-color: white;
+  background: rgba(255, 255, 255, 0.1); }
+
+.welcome-section {
+  /*background: linear-gradient(90deg, rgba(255, 177, 0, 0.2), rgba(52, 0, 255, 0.4)); */
+  }
+
+.welcome-section .logo-image {
+  margin: 25px; }
+
+.install-section {
+  /*background: linear-gradient(90deg, rgba(32, 255, 0, 0.2), rgba(52, 0, 255, 0.4));*/
+   }
+
+.usage-section {
+  /*background: linear-gradient(90deg, rgba(145, 255, 1, 0.2), rgba(52, 0, 255, 0.4));*/
+   }
+
+.slides-section {
+  /*background: linear-gradient(90deg, rgba(255, 155, 0, 0.2), rgba(52, 0, 255, 0.4));*/
+   }
+
+.start-use-it-now-section {
+  /*background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(52, 0, 255, 0.4));*/
+   }
+
+   /* Fixed header and footer.
+	* --------------------------------------- */
+	.header, .footer{
+		position:fixed;
+		display:block;
+		width: 100%;
+		background: #333;
+		z-index:9;
+		text-align:center;
+		color: #f2f2f2;
+		padding-top: 10px;
+    padding-bottom: 10px;
+	}
+	.header{
+		top:0px;
+	}
+
+/*
+.relative-header {
+  height: calc(100% - 70px) !important;
+}
+  .fp-section {
+    height: calc(100% - 50px) !important;
+  }
+.fp-tableCell {
+    height: calc(100% - 50px) !important;
+  }*/
+
+  /*.fp-tableCell {
+    height: calc(100% - 146px) !important;
+  }*/
