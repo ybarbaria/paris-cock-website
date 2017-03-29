@@ -1,3 +1,5 @@
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { YoutubeService } from './services/youtube.service';
 import { TeamsComponent } from './teams/teams.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -23,7 +25,8 @@ import {
     SearchComponent,
     MnFullpageDirective,
     HomeComponent, 
-    TeamsComponent
+    TeamsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import {
     BrowserModule,
     FormsModule,
     HttpModule,
-    MaterialModule
+    MaterialModule,
+    NgbModule
   ],
   providers: [
     appRoutingProviders,

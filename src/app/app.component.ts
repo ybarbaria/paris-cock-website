@@ -6,6 +6,7 @@ import { Component, Input, Output, ViewEncapsulation } from '@angular/core';
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+    public title = 'Angular2 Bootstrap4 Navbar';
     constructor() {
     }
 }
