@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
   private _backgroundBlueIndigo: string = "#3F51B5";
   private _navBar = document.getElementsByClassName(this._navBarClassName)[0];
   constructor(private sanitizer: DomSanitizer, private fullpageService: MnFullpageService) {
-    this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.baseUrl + this.video.id + "?autoplay=1&loop=1&modestbranding=1&autohide=1&showinfo=0&controls=0");
+    this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.baseUrl + this.video.id + "?autoplay=1&loop=1&modestbranding=1&playsinline=0autohide=1&showinfo=0&controls=0");
     var self = this;
     this.setColor(this._navBar, this._backgroundTransparent);
   }
