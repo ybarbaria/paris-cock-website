@@ -13,7 +13,7 @@ export class NavbarComponent implements OnInit {
   public menuItems: any[];
   public brandMenu: any;
   isCollapsed = true;
-    private _navBarClassName: string = "bg-inverse"
+  private _navBarClassName: string = "bg-inverse"
   private _backgroundTransparent: string = "transparent";
   private _backgroundBlueIndigo: string = "#3F51B5";
   private _navBar = document.getElementsByClassName(this._navBarClassName)[0];

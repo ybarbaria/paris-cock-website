@@ -20,7 +20,14 @@ h4 {
   font-size: 1.3em; }
 
 #fp-nav {
-  top: 50% !important; }
+  top: 50% !important; 
+  right: 0px !important; 
+  }
+  
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #3F51B5;
+  }
+
 
 .menu-wrapper {
   position: relative;

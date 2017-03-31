@@ -15,48 +15,35 @@
         [mnFullpageSlidesNavPosition]="bottom" class="">
         <div class="section welcome-section fp-section fp-table">
             <div class="fp-tableCell">
-                <div style="position:relative; height:100%; width:100%;">
-
-                    <iframe style="width: 100%;height: 100%;position: relative" autoScrolling="false" width="100%" height="100%" [src]="url"
-                        scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>></iframe>
-                </div>
-            </div>
-        </div>
-        <div class="section install-section fp-section fp-table">
-            <div class="fp-tableCell">
-                <div class="code-block">
-                    <pre>
-                        Test1 
-                    </pre>
+                <div style="position:relative; height:100%; width:100%; background-color: black">
+                    <iframe style="width: 100%;height: 100%;position: relative" width="100%" height="100%" [src]="url" scrolling="no" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen>></iframe>
                 </div>
             </div>
         </div>
         <div class="section usage-section fp-section fp-table">
             <div class="fp-tableCell">
-                Test2
                 <div class="slide">
-                    <pre>
-                      Slide 1
-                    </pre>
+                    <img src="../../assets/img/cockerelles.JPG" alt="cockerelles">
+
+                    <!--<h4>{{ titleSection2Slide1 }}</h4>-->
                 </div>
                 <div class="slide">
-                    <h1> Slide 2 </h1>
-                    <div class="code-block">
-                        <pre>
-                </pre>
-                    </div>
+                    <img src="../../assets/img/toos2.JPG" alt="coockatoos">
                 </div>
                 <div class="slide">
-                    <h1>Slide 3</h1>
-                    <div class="code-block">
-                        <pre>
-                </pre>
-                    </div>
+                      <img src="../../assets/img/rels.jpeg" alt="cockerels">
                 </div>
+            </div>
+        </div>
+        <div class="section install-section fp-section fp-table">
+            <div class="fp-tableCell">
+                <h1>{{ titleSection3 }}</h1>
             </div>
         </div>
         <div class="section slides-section fp-section fp-table">
             <div class="fp-tableCell">
+                <h1>{{ titleSection4 }}</h1>
                 <div class="slide">
                     <h1>Test3</h1>
                     <h4>Use keyboard arrows or navigation below to slide right</h4>
@@ -64,15 +51,12 @@
                 <div class="slide">
                     <h1>Slide1</h1>
                     <div class="code-block">
-                        <pre>
-                    </pre>
                     </div>
                 </div>
                 <div class="slide">
                     <h1>Slide2</h1>
                     <div class="code-block">
-                        <pre>
-                    </pre>
+
                     </div>
                 </div>
                 <div class="slide">
@@ -86,7 +70,7 @@
         </div>
         <div class="section usage-section fp-section fp-table">
             <div class="fp-tableCell">
-                <h1>Control the page</h1>
+                <h1>{{ titleSection5 }}</h1>
                 <div class="code-block">
                     <pre>
                     </pre>

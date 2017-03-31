@@ -7,14 +7,16 @@
         {{menuIcon}}
     </button>
     <a (click)="isCollapsed = true" class="navbar-brand hidden-sm-up" [routerLink]="[brandMenu.path]">
-      {{brandMenu.title}}
+       <img src="../../assets/img/cocks_icon.JPG" alt="cocks" width="42" heigth="42">
     </a>
   </div>
   <div class="navbar-toggleable-xs navbar-collapse" id="bd-main-nav"
   [attr.aria-expanded]="!isCollapsed" [ngClass]="{collapse: isCollapsed}">
     <ul class="nav navbar-nav">
       <li (click)="isCollapsed = true" class="nav-item" routerLinkActive="active">
-        <a class="navbar-brand hidden-xs-down" [routerLink]="[brandMenu.path]">{{brandMenu.title}}</a>
+        <a class="navbar-brand hidden-xs-down" [routerLink]="[brandMenu.path]">   
+          <img src="../../assets/img/cocks_icon.JPG" alt="cocks" width="42" heigth="42">
+        </a>
       </li>
       <li (click)="isCollapsed = true" *ngFor="let menuItem of menuItems"
         class="nav-item" routerLinkActive="active"

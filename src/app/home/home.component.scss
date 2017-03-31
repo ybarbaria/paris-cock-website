@@ -2,6 +2,11 @@
     background-color: transparent;
 }
 
- iframe{
-pointer-events: none;
+iframe {
+    pointer-events: none;
+}
+
+img {
+    position:relative;
+    width: 100%;
 }
